@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  webmoderno:
+    image: webmoderno
+    build:
+      context: .
+      dockerfile: ./Dockerfile
